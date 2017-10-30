@@ -2,6 +2,7 @@
 
 Felix Hanke hanke@liverpool.ac.uk
 Jonas Bjork j.bjork@liverpool.ac.uk
+Stefan Ringe sringe@stanford.edu (SMPB Solver)
 """
 
 import os
@@ -127,6 +128,7 @@ list_keys = [
     'pseudoions',
 ]
 
+#SMPB Implicit Solvation Solver
 mpbe_list_keys = [
     'dielec_func',
     'ions_temp',
